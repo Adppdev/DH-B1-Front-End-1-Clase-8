@@ -1,0 +1,119 @@
+article {
+  display: flex;
+  line-height: 20px;
+}
+
+body {
+  background-color: #59a9b5;
+  /* font-family: Georgia, "Times New Roman", Times, serif; */
+  font-family: "Poppins", sans-serif;
+}
+
+.btSobreMi {
+  background-color: #e2f3f9;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  padding: 5px 10px;
+  text-align: center;
+}
+
+.btSobreMi:hover {
+  background-color: #d2dfe5;
+  box-shadow: 0 1px;
+}
+
+.btSobreMi:active {
+  background-color: #d2dfe5;
+  transform: translateY(3px);
+}
+
+.datosPersonales {
+  margin-top: 100px;
+}
+
+.divTitulo {
+  background-color: #e2f3f9;
+  font-weight: bold;
+}
+
+.encabezado {
+  background-color: #438797;
+  text-align: center;
+}
+
+.fotoPersonal {
+  border-radius: 20%;
+  max-width: 150px;
+}
+
+footer {
+  align-items: center;
+  background-color: #438797;
+  display: flex;
+  font-weight: bolder;
+  gap: 25px;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+#footer-h3 {
+  font-weight: bolder;
+  font-size: 25px;
+}
+
+.footer-img {
+  width: 50px;
+  height: 50px;
+}
+
+.fotoHome {
+  width: 50px;
+  height: 50px;
+}
+
+h1 {
+  background-color: #e2f3f9;
+  /* color: white; */
+  font-weight: bold;
+  font-size: 36px;
+  text-align: center;
+  margin: 0px;
+}
+
+h2 {
+  /* background-color: #e2f3f9;
+  font-weight: bold; */
+  margin-left: 37px;
+}
+
+#primerosDatos {
+  margin-top: 100px;
+}
+
+span {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.sobreMi-h1 {
+  margin-bottom: 200px;
+}
+
+ul {
+  list-style: none;
+  color: white;
+}
+
+nav {
+  text-align: center;
+}
+
+p {
+  color: white;
+  font-weight: bolder;
+  font-size: 25px;
+  margin-bottom: 20%;
+}
